@@ -4,7 +4,6 @@ class Info extends Component {
   render() {
     return (
       <div className="container">
-        <h2 className="header">Info</h2>
         <div className="content">
             <ul>
               <li>BYOB</li>
