@@ -5,7 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Faq from "./Faq";
+import Info from "./Info";
 
 class Main extends Component {
   render() {
@@ -13,13 +13,13 @@ class Main extends Component {
       <HashRouter>
         <div>
           <h1>WiggleRoom House Concerts</h1>
-          <ul className="header">
+          <ul className="mainHeader">
             <li><NavLink exact to="/">Upcoming Gig</NavLink></li>
-            <li><NavLink to="/faq">FAQ</NavLink></li>
+            <li><NavLink to="/info">Info</NavLink></li>
           </ul>
-          <div className="content">
+          <div className="mainContent">
             <Route exact path="/" component={Home}/>
-            <Route path="/faq" component={Faq}/>
+            <Route path="/info" component={Info}/>
           </div>
         </div>
         </HashRouter>
