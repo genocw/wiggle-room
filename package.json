@@ -2,6 +2,7 @@
   "name": "wiggle",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://wiggle-room-red-house.s3-website.eu-west-2.amazonaws.com/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
