@@ -2,7 +2,7 @@ html {
   height: 100vh;
 }
 body {
-    background-color: #FFCC00;
+    background-color: hotpink;
     padding: 20px;
     margin: 0;
   }
@@ -15,7 +15,7 @@ body {
     margin: 0;
   }
   ul.mainHeader {
-    background-color: #111;
+    background-color: blueviolet;
     padding: 0;
   }
   ul.mainHeader li a {
@@ -26,7 +26,7 @@ body {
     display: inline-block;
   }
   .mainContent {
-    background-color: #FFF;
+    background-color: #0099FF;
     padding: 20px;
   }
   .mainContent h2 {
